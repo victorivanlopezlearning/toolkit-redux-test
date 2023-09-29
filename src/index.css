@@ -24,11 +24,13 @@ body {
 h1 {
   font-size: 3.5em;
   line-height: 1.1;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
 }
 
 ul {
-  padding: 0 50px;
-  margin: 0;
+  padding: 0 20px;
+  margin: 10px 0 10px 0;
 }
 
 button {
@@ -39,6 +41,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  color: #FFF;
   cursor: pointer;
   transition: border-color 0.25s;
 }
